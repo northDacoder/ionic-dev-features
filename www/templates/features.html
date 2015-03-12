@@ -1,0 +1,9 @@
+<ion-view view-title="Features">
+  <ion-content style="background: black;">
+    <ion-list>
+      <ion-item ng-repeat="feature in features" href="#/app/features/{{feature.id}}" class="item-dark">
+        <i class="icon ion-ios-checkmark" style="color: lime; font-size: 30px;"></i> {{feature.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
